@@ -116,13 +116,13 @@ export function NextGenCanvasFrontPage() {
                   variant="outline"
                   className="w-1/2 mx-auto bg-green-400 text-gray-800 text-lg font-semibold my-auto scale-150"
                 >
-                  <Link href={"/rooms/12"}>Create a Room</Link>
+                  <Link href={"/room/create"}>Create a Room</Link>
                 </Button>
                 <Button
                   variant="default"
                   className="w-1/2 mx-auto bg-blue-400 text-gray-800 text-lg font-semibold my-auto scale-150"
                 >
-                  Join a Room
+                  <Link href={"/room/join"}>Join a Room</Link>
                 </Button>
               </div>
             </div>
